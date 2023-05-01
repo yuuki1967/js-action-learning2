@@ -1,0 +1,10 @@
+name: 'Action Exec Sample'
+description: 'Action exec sample'
+inputs:
+  who-to-greet:
+    description: 'who to greet'
+    required: fales
+    default: 'world'
+runs:
+  using: 'node16'
+  main: 'main.js'
